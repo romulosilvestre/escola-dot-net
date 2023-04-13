@@ -8,12 +8,16 @@ public class CursoController:Controller{
         //set
         c1.Descricao = "Primeiros Passos no ASP.NET Core";
         c1.TituloInterno = "Desenvolvedor C#";
-        c1.TituloMarketing = "Crie Aplicativos Incríveis";
-        
+        c1.TituloMarketing = "Crie Aplicativos Incríveis";        
         //get
-        ViewData["desc"] = c1.Descricao;
-        ViewData["titInt"] = c1.TituloInterno;
-        ViewData["titMark"] = c1.TituloMarketing;
+        ViewData["curso"] = c1;//passando o objeto       
         return View();
     }
+    //Action
+    public IActionResult Create(){
+        ViewData["titulo"]="Cadastro de Cursos";
+        ViewBag.DataHora = DateTime.Now;
+        return View();
+    }
+    
 }

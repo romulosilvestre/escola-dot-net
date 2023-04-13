@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = c:\Users\PROFESSOR\Desktop\EscolaDotNet\AplicativoWeb
 build_property._RazorSourceGeneratorDebug = 
 
+[c:/Users/PROFESSOR/Desktop/EscolaDotNet/AplicativoWeb/Views/Curso/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vyc29cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [c:/Users/PROFESSOR/Desktop/EscolaDotNet/AplicativoWeb/Views/Curso/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vyc29cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

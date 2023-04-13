@@ -1,18 +1,16 @@
 
+@{
+  //fortemente tipada
+  
+    var curso = ViewData["curso"] as Curso;//converter
 
+
+}
 <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
-  <div class="card-header">@ViewData["titInt"]</div>
+  <div class="card-header"> @curso?.TituloInterno</div>
   <div class="card-body">
-    <h5 class="card-title">@ViewData["titMark"]</h5>
-    <p class="card-text">@ViewData["desc"]</p>
+    <h5 class="card-title">@curso?.TituloMarketing </h5>
+    <p class="card-text"> @curso?.Descricao  </p>
   </div>
 </div>
 
-@for(int i=0;i<=10;i++){
-    @if(i%2==0){
-       <h1 style="color:green">Vamos pegar a camisa - Palmeiras</h1>
-    }else{
-       <h1 style="color:red">Vamos pegar a camisa - Flamengo</h1> 
-    }
-   
-}
